@@ -37,6 +37,7 @@ define( 'DB_PASSWORD', '${WP_USER_PASSWORD}' );
 define( 'DB_HOST', '${WP_DB_HOST}' );
 define( 'DB_CHARSET', 'utf8' );
 define( 'DB_COLLATE', '' );
+define( 'FS_METHOD', 'direct');
 ${wp_keys}
 \$table_prefix = 'wp_';
 define( 'WP_DEBUG', false );
